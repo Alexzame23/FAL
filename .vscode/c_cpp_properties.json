@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/0.Archivos/Estructuras", // Incluye la carpeta Estructuras
+                "${workspaceFolder}/**"          // Incluye todo el proyecto
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/gcc.exe", // Ruta al compilador GCC (ajusta si usas otro)
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"  // Ajusta según tu compilador
+        }
+    ],
+    "version": 4
+}
