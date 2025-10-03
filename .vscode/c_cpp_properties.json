@@ -3,14 +3,15 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/0.Archivos/Estructuras", // Incluye la carpeta Estructuras
-                "${workspaceFolder}/**"          // Incluye todo el proyecto
+                "${workspaceFolder}/0.Archivos/Estructuras",
+                "${workspaceFolder}/**",
+                "C:/MinGW/lib/gcc/mingw32/*/include/c++/**"  // Añade esta línea
             ],
             "defines": [],
-            "compilerPath": "C:/MinGW/bin/gcc.exe", // Ruta al compilador GCC (ajusta si usas otro)
+            "compilerPath": "C:/MinGW/bin/g++.exe",  // Cambia gcc.exe por g++.exe
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"  // Ajusta según tu compilador
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
